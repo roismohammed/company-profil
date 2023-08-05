@@ -1,0 +1,27 @@
+.services {
+    margin-top: 120px;
+}
+
+.icon-services {
+    height: 60px;
+    width: 60px;
+    color: white;
+    background-color: #016EDB;
+    padding: 10px;
+    border-radius: 100%;
+}
+
+.services p{
+    font-size: 15px;
+    color: #6C7785;
+}
+
+.card-hover{
+    transition: .1s;
+}
+
+.card-hover:hover{
+   border-bottom: 3px solid #016EDB;
+   border-radius: 4px;
+   transition: 0.1s ;
+}

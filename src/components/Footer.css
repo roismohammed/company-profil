@@ -1,0 +1,20 @@
+.header{
+    background-color: #016EDB;
+    height: 4px;
+}
+
+.footer{
+    background-color: #323A46;
+    margin-top: 100px;
+}
+
+.tentang-footer{
+    font-size: 15px;
+}
+
+.d-block .p{
+    font-size: 14px;
+    color:rgb(201, 196, 196);
+    opacity:0.5;
+}
+
