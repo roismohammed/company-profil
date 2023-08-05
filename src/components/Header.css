@@ -1,4 +1,5 @@
-.bg-header{
+@import url('https://fonts.googleapis.com/css2?family=Barlow:ital,wght@1,500&display=swap');
+.bg-header {
     background-color: white;
     position: fixed;
     width: 100%;
@@ -7,12 +8,20 @@
     color: black;
 }
 
-.navbar{
+#judul-header{
+    font-size:25px ;
+}
+
+.judul-header {
+    font-family: 'Barlow', sans-serif;
+}
+
+.navbar {
     transition: .3s ease-out;
     padding: 30px;
 }
 
-.textBlack{
+.textBlack {
     cursor: pointer;
     color: black;
 }
