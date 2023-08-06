@@ -4,7 +4,8 @@ export default function Services() {
     return (
         <div className="container services" id='services'>
             <div className="row" >
-                <div className="col-md-4 text-end" data-aos="zoom-out-up">
+                <div className="col-md-4 text-end" data-aos="fade-up"
+     data-aos-anchor-placement="top-bottom">
                     <h5>Our Services</h5>
                     <h2>WHAT WE CAN DO FOR YOU</h2>
                 </div>
