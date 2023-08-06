@@ -30,7 +30,7 @@ export default function Index() {
                 </div>
             </div>
             <div className="text-end">
-                <div className="fixed-bottom float-end p-3 ">
+                <div className="fixed-bottom float-end p-4 ">
                     <a href="#atas">
                         <RiArrowUpCircleFill className={stikyIcon ? "icon" : 'icon-none'} />
                     </a>
