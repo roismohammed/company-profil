@@ -2,7 +2,7 @@ import './Contact.css'
 export default function Contact() {
     return (
         <div className="container contact" data-aos="fade-up"
-        data-aos-anchor-placement="center-bottom" id='contact'>
+        data-aos-anchor-placement="center-bottom" data-aos-duration="1500" id='contact'>
             <div className="row p-3">
                 <div className="text-center">
                     <h2>Contact Us</h2>
