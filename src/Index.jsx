@@ -21,8 +21,8 @@ export default function Index() {
                 <div className="container text-box d-flex align-items-center h-100 text-white ">
                     <div className="text-box">
                         <h1 className="judul-index animate__animated animate__fadeInDown">Tusuk Sate,Murah</h1>
-                        <p >Melayani Jual Beli Tusuk Sate murah Dari Bambu harga terjangkau dan ekonomis dan lain-lain </p>
-                        <div className="tombol   ">
+                        <p className=" animate__animated animate__fadeInUp">Melayani Jual Beli Tusuk Sate murah Dari Bambu harga terjangkau dan ekonomis dan lain-lain </p>
+                        <div className="tombol animate__animated animate__fadeInUp ">
                             <button className="btn btn-outline-light mx-2">Selengkapnya</button>
                             <button className="btn btn-warning text-white mx-2">Hubungi Kami</button>
                         </div>

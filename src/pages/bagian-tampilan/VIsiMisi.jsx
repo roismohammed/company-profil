@@ -5,7 +5,7 @@ export default function VisiMisi() {
         <Guest>
             <div className="container visi-misi">
                 <div className="row mt-5 p-3">
-                    <div className="col-md-8">
+                    <div className="col-md-8"  data-aos="fade-down-right" data-aos-duration="1000">
                         <p className="" >Visi kami adalah menjadi mitra terpercaya dalam menyediakan solusi tusuk sate berkualitas tinggi yang memenuhi kebutuhan pelanggan dari berbagai latar belakang kuliner. </p>
                         <ul>
                             <li>
@@ -33,7 +33,7 @@ export default function VisiMisi() {
                             </li>
                         </ul>
                     </div>
-                    <div className="col-md-4 ">
+                    <div className="col-md-4 "data-aos-duration="1000"  data-aos="fade-down-left">
                         <h1>Visi & Misi</h1>
                     </div>
 

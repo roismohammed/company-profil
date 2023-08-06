@@ -1,7 +1,8 @@
 import './Contact.css'
 export default function Contact() {
     return (
-        <div className="container contact" id='contact'>
+        <div className="container contact" data-aos="fade-up"
+        data-aos-anchor-placement="center-bottom" id='contact'>
             <div className="row p-3">
                 <div className="text-center">
                     <h2>Contact Us</h2>
