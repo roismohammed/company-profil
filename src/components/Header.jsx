@@ -28,7 +28,7 @@ export default function Header() {
 
     return (
         <Fragment>
-            <nav className={header ? 'bg-header navbar navbar-expand-lg fixed-top  shadow-sm' : 'navbar navbar-expand-lg fixed-top '}>
+            <nav className={header ? 'bg-header navbar navbar-expand-lg fixed-top  shadow-sm' : 'navbar navbar-expand-lg fixed-top'}>
                 <div className="container">
                     <a id="judul-header" className={blackText ? "navbar-brand judul-header" : "navbar-brand text-white judul-header"} href="#">
                         TusukSate
