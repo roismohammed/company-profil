@@ -42,7 +42,7 @@ export default function Index() {
             <div className="text-start">
                 <div className="fixed-bottom float-start p-4">
                     <div className={stikyIcon ? "bg-icon" : "icon-none"}>
-                        <a href="https://wa.me/+6285940466426">
+                        <a href="https://wa.me/6285940466426">
                             <RiWhatsappLine className="icon-wa" />
                         </a>
                     </div>
