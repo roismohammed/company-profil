@@ -27,9 +27,10 @@ html {
 .icon-none {
     display: none;
     transition: 0.3s ease-in;
+    animation: fadeOut 1s ease forwards;
 }
 
-.text-box{
+.text-box {
     z-index: 1;
 }
 
@@ -44,3 +45,35 @@ html {
     z-index: 0;
     overflow: hidden;
 }
+
+.bg-icon {
+    background-color: green;
+    width: 60px;
+    height: 60px;
+    padding: 10px;
+    border-radius: 100%;
+}
+
+.icon-wa {
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+
+.bg-icon:hover{
+    opacity:0.6;
+    animation: fadeOut 1s ease forwards;
+}
+
+@keyframes bg-icon {
+    0% {
+      opacity: 2;
+    }
+    100% {
+      opacity: 0;
+      display: none;
+    }
+  }

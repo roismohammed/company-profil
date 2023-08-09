@@ -1,6 +1,6 @@
 import Guest from "./layouts/Guest";
 import './Index.css'
-import { RiArrowUpCircleFill } from "react-icons/ri";
+import { RiArrowUpCircleFill, RiWhatsappLine } from "react-icons/ri";
 import { useState } from "react";
 import 'animate.css';
 export default function Index() {
@@ -24,7 +24,9 @@ export default function Index() {
                         <p >Melayani Jual Beli Tusuk Sate murah Dari Bambu harga terjangkau dan ekonomis dan lain-lain </p>
                         <div className="tombol ">
                             <button className="btn btn-outline-light mx-2">Selengkapnya</button>
-                            <button className="btn btn-warning text-white mx-2">Hubungi Kami</button>
+                            <a href="https://id.roismohammed@gmail.com">
+                                <button className="btn btn-warning text-white mx-2">Hubungi Kami</button>
+                            </a>
                         </div>
                     </div>
                 </div>
@@ -34,6 +36,16 @@ export default function Index() {
                     <a href="#atas">
                         <RiArrowUpCircleFill className={stikyIcon ? "icon" : 'icon-none'} />
                     </a>
+                </div>
+            </div>
+
+            <div className="text-start">
+                <div className="fixed-bottom float-start p-4">
+                    <div className={stikyIcon ? "bg-icon" : "icon-none"}>
+                        <a href="https://wa.me/085940466426">
+                            <RiWhatsappLine className="icon-wa" />
+                        </a>
+                    </div>
                 </div>
             </div>
         </Guest>
